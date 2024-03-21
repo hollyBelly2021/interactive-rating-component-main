@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+HK:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #131518;
+  font-family: "Overpass", sans-serif;
+  /* height: 100vh; */
+}
+
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+p {
+  color: #979797;
+  font-size: 15px;
+  font-weight: 200;
+
+  line-height: 1.8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.icon-circle p {
+  font-weight: 400;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rating-container {
+  width: 412px;
+  height: 416px;
+  background-color: rgb(30, 36, 43);
+  border-radius: 20px;
+
+  padding: 30px;
+}
+
+.icon-circle {
+  height: 48px;
+  width: 48px;
+  background-color: rgb(34, 41, 39);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #979797;
+  font-weight: 400;
+}
+
+.icon-circle:hover {
+  background-color: #fc7614;
+  cursor: pointer;
+  color: white;
+}
+
+.icon-star {
+  height: 16px;
+}
+
+.description-container {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.rating-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-styles {
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fc7614;
+
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.button-styles p {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.button-styles:hover {
+  background-color: white;
+  color: #fc7614;
+  cursor: pointer;
+}
