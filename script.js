@@ -1,1 +1,5 @@
-console.log("JavaScript is ready to run");
+const ratingContainer = document.querySelector(".rating-container");
+
+// const descriptionContainer = document.querySelector(".description-container");
+
+// descriptionContainer.style.display = "none";

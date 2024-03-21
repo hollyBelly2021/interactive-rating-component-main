@@ -29,6 +29,10 @@ ul {
   list-style-type: none;
 }
 
+button {
+  border: none;
+}
+
 .icon-circle p {
   font-weight: 400;
 }
@@ -75,7 +79,7 @@ ul {
 
 .description-container {
   display: flex;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   flex-direction: column;
   gap: 18px;
 }
@@ -106,4 +110,38 @@ ul {
   background-color: white;
   color: #fc7614;
   cursor: pointer;
+}
+
+.greeting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 25px;
+}
+
+.greeting-image {
+  margin-top: 10px;
+}
+
+.long-bubble {
+  width: 193px;
+  background-color: rgb(34, 41, 39);
+  border-radius: 20px;
+  text-align: center;
+  color: #fc7614;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.greeting-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 12px;
+  gap: 20px;
+}
+
+.text {
+  text-align: center;
 }
