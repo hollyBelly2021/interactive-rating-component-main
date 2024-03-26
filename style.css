@@ -73,6 +73,11 @@ button {
   color: white;
 }
 
+.icon-circle:focus {
+  background-color: #7c8798;
+  color: white;
+}
+
 .icon-star {
   height: 16px;
 }
