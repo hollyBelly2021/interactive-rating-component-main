@@ -67,6 +67,20 @@ button {
   font-weight: 400;
 }
 
+.icon-circle-star {
+  height: 48px;
+  width: 48px;
+  background-color: rgb(34, 41, 39);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #979797;
+  font-weight: 400;
+}
+
 .icon-circle:hover {
   background-color: #fc7614;
   cursor: pointer;

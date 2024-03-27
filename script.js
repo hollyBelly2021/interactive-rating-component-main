@@ -3,7 +3,8 @@ $(".icon-circle").on("click", function () {
 });
 function submitRating(rating) {
   $(".button").on("click", function () {
-    $(".rating-container").html(`<section class="greeting-container">
+    $(".rating-container").html(
+      `<section class="greeting-container">
     <img
       class="greeting-image"
       src="./images/illustration-thank-you.svg"
@@ -17,6 +18,7 @@ function submitRating(rating) {
         need more support, don’t hesitate to get in touch!
       </p>
     </div>
-  </section>`);
+  </section>`
+    );
   });
 }
